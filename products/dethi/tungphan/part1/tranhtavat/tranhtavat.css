@@ -1,0 +1,130 @@
+body {
+  background-image: url(../../../../../assets/css/img/bg_extension_0.png);
+  background-size: cover;
+}
+
+.combackhome {
+  margin: 31px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 320px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #dddddd2e;
+}
+
+.header__nav-ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+}
+
+.header__nav-ul-li {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffff;
+  opacity: 0.7;
+  padding: 27px;
+  cursor: pointer;
+  margin-left: 212px;
+}
+
+.header__nav-ul-li:hover {
+  background-color: rgba(198, 201, 204, 0.412);
+}
+
+/* header */
+
+main {
+  margin: 130px;
+}
+
+.listItems {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+}
+
+.testListening {
+  background-color: rgba(198, 201, 204, 0.412);
+  padding: 50px;
+  border-radius: 9px;
+  cursor: pointer;
+  height: auto;
+  background-size: cover;
+  transition: transform 0.3s;
+  margin: 10px;
+}
+
+.testListening:hover {
+  background-color: rgba(198, 201, 204, 0.634);
+  transform: scale(1.03);
+}
+
+.testListening p {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffff;
+  opacity: 0.7;
+  width: 130px;
+  text-align: center;
+}
+
+/* test */
+
+.arrowDistanari {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 35px 39px 25px 0;
+}
+
+.prev,
+.next {
+  padding: 10px;
+  border: 1px solid rgba(198, 201, 204, 0.115);
+  cursor: pointer;
+  background-color: rgba(198, 201, 204, 0.634);
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(233, 234, 236, 0.845);
+}
+
+arrow {
+  background-color: rgba(198, 201, 204, 0.634);
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+  color: #ffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+arrow.active {
+  background-color: rgba(233, 234, 236, 0.845);
+}
+
+/* điều hướng */
+
+.listItems1 {
+  display: none;
+}
+
+.listItems1.active {
+  display: block;
+}
+
+.header__nav-ul-li.active {
+  background-color: rgba(198, 201, 204, 0.412);
+}
+
+/* active */

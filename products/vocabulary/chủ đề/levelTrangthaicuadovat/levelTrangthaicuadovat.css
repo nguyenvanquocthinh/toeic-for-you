@@ -1,0 +1,81 @@
+body {
+  background-image: url(../../../../assets/css/img/bg_extension_0.png);
+  background-size: cover;
+}
+
+.combackhome {
+  margin: 31px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 320px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #ffffffbd;
+}
+
+.header__nav-ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+}
+
+.header__nav-ul-li {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffff;
+  opacity: 0.7;
+  padding: 27px;
+  cursor: pointer;
+}
+
+.header__nav-ul-li:hover {
+  background-color: rgba(198, 201, 204, 0.412);
+}
+
+/* header */
+
+main {
+  margin: 100px 510px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 540px;
+}
+
+/* main */
+
+.subject {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffff;
+  opacity: 0.7;
+  padding: 27px;
+  cursor: pointer;
+  width: 373px;
+  text-align: center;
+  background-color: rgba(198, 201, 204, 0.777);
+  margin-left: 120px;
+}
+
+.button {
+  font-size: 20px;
+  width: 450px;
+  height: 60px;
+  font-weight: 700;
+  color: #ffff;
+  background-color: #ffffff8e;
+  cursor: pointer;
+  border: 1px solid #ffffff8e;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #ffffffbb;
+}

@@ -1,0 +1,296 @@
+body {
+  background-image: url(../../../../assets/css/img/bg_extension_0.png);
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.combackhome {
+  margin: 31px;
+}
+
+.nameSong_name {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.playlist {
+  display: flex;
+  gap: 50px;
+  margin: 20px 70px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.playlist__audio {
+  height: 57px;
+}
+
+.prev,
+.next {
+  background-color: #e4e4e4;
+  padding: 17px;
+  border-radius: 36px;
+  cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #c3c3c3;
+}
+
+.container1 {
+  margin-top: 15px;
+  position: relative;
+}
+
+/* playlist */
+
+.form {
+  background-color: #ffffff;
+  height: 620px;
+  width: 1220px;
+  margin: 0px 157px;
+  border-radius: 20px;
+  box-shadow: 0px -1px 19px 6px rgba(0, 0, 0, 0.39);
+  width: 1220px;
+  overflow: hidden;
+  position: relative;
+}
+
+.form_input {
+  padding: 16px;
+}
+
+.form_input input {
+  width: 500px;
+
+  /* padding-bottom: 100px; */
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid #565454;
+  padding: 5px 5px 150px;
+}
+
+.form_input input:hover {
+  border: 6px solid #0e9ee653;
+}
+
+.form_button {
+  position: absolute;
+  /* top: 75%;
+  right: 10%; */
+  top: 250px;
+  right: 188px;
+}
+
+.form_button p {
+  padding: 10px 15px;
+  font-size: 18px;
+  /* background-color: aliceblue; */
+  background-color: #dcdbdb;
+  border: 1px solid #e4e4e4;
+  border-radius: 9px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  color: #585858;
+}
+
+.form_button p:hover {
+  background-color: #c2c2c2;
+}
+
+/* form button */
+
+.help__translate {
+  height: 60px;
+  width: 60px;
+  background-color: #e4e4e4;
+  padding: 18px;
+  border-radius: 189px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.help__translate1 {
+  border: 1px solid;
+  padding: 20px;
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+.help__translate2 {
+  border: 1px solid;
+  padding: 20px;
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  display: none;
+}
+
+.help__translate3 {
+  border: 1px solid;
+  padding: 20px;
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+span {
+  font-size: 19px;
+}
+
+.type-help {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.type-help1 {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.type-help3 {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  padding-right: 10px;
+  margin-top: 79px;
+}
+
+.form_img img {
+  margin-left: 90px;
+}
+
+.answer_check {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 39px 193px;
+}
+
+.container2 {
+  margin-top: 69px;
+}
+
+.question {
+  font-size: 18px;
+  color: #41414192;
+  font-weight: 600;
+  line-height: 33px;
+  padding: 10px 125px;
+}
+
+.prev {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: #e4e4e4;
+  padding: 18px;
+  border-radius: 189px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.next {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: #e4e4e4;
+  padding: 18px;
+  border-radius: 189px;
+  cursor: pointer;
+  text-align: center;
+  right: 10px;
+}
+
+.giaithich {
+  margin: 10px 125px;
+  display: flex;
+  align-items: center;
+}
+
+.giaithich img {
+  width: 6%;
+}
+
+.giaithich_label {
+  font-size: 18px;
+  color: #41414192;
+  font-weight: 600;
+  line-height: 33px;
+}
+
+.detail {
+  margin: 0px 180px;
+}
+
+.detail_p1,
+.detail_p2 {
+  font-size: 18px;
+  color: #41414192;
+  font-weight: 600;
+  line-height: 33px;
+}
+
+.trans {
+  font-size: 18px;
+  color: #41414192;
+  font-weight: 600;
+  line-height: 33px;
+}
+
+.A,
+.B,
+.C,
+.D {
+  font-size: 18px;
+  color: #41414192;
+  font-weight: 600;
+  line-height: 3px;
+  padding-top: 4px;
+}
+
+.answer {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.answer input {
+  cursor: pointer;
+}
+
+.closed {
+  display: none;
+}
+
+.true,
+.false1,
+.false2,
+.false3 {
+  display: none;
+}
+
+.check_true_false {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 170px;
+  left: 162px;
+  gap: 10px;
+}
