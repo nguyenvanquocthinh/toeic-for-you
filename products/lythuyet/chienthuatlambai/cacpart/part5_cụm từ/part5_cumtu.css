@@ -1,5 +1,5 @@
 body {
-  background-image: url(../../../../assets/css/img/bg_extension_0.png);
+  background-image: url(../../..../../../../../assets/css/img/bg_extension_0.png);
   background-size: cover;
 }
 
@@ -82,13 +82,13 @@ main {
 }
 
 .container {
-  background-color: #ffffffbb;
+  background-color: #ffffff;
   width: 660px;
   height: 659px;
   position: fixed;
   top: 83px;
   left: 400px;
-  padding: 15px;
+  padding: 0px 15px;
   overflow: auto;
 }
 
@@ -101,19 +101,24 @@ main {
 .container_input {
   width: 400px;
   height: 52px;
-  border: 3px solid #ffff;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
   border-radius: 27px;
   padding-left: 18px;
   font-size: 17px;
   margin-bottom: 15px;
   position: fixed;
+  top: 97px;
   left: 532px;
+  z-index: 2;
 }
 
 .img_search {
   position: fixed;
   right: 610px;
   top: 105px;
+  z-index: 2;
+  cursor: pointer;
 }
 
 .vocOne {
@@ -130,29 +135,7 @@ main {
 
 .container2 {
   padding-top: 50px;
-}
-
-.heading {
-  font-size: 21px;
-  color: #41414192;
-  font-weight: 600;
-  text-align: center;
-  line-height: 33px;
-}
-
-.container2 {
-  padding-top: 5px;
-}
-
-.content {
-  margin: 20px 10px;
-}
-
-.content p {
-  font-size: 18px;
-  color: #41414192;
-  font-weight: 600;
-  line-height: 33px;
+  margin-bottom: 78px;
 }
 
 .practice {
@@ -167,6 +150,32 @@ main {
   color: #585858;
   margin: 10px;
 }
+
 .practice:hover {
   background-color: #c2c2c2;
+}
+
+.container1 {
+  background-color: #ffffff;
+  width: 645px;
+  padding: 20px;
+  /* margin: 0px 10px; */
+  height: 75px;
+  position: fixed;
+  left: 400px;
+  right: 106px;
+  z-index: 1;
+}
+
+footer {
+  background-color: #ffffff;
+  width: 645px;
+  /* padding: 20px; */
+  /* margin: 0px 10px; */
+  height: 75px;
+  position: fixed;
+  top: 680px;
+  left: 400px;
+  right: 106px;
+  z-index: 1;
 }
